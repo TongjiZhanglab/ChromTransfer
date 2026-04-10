@@ -39,11 +39,12 @@ pip install torch pandas numpy scikit-learn tqdm scanpy h5py
 
 ---
 
-## 2. Download Required Data from Figshare (https://doi.org/10.6084/m9.figshare.31972113)
+## 2. Download Required Data from Figshare
 
 Download data/ from Figshare (https://doi.org/10.6084/m9.figshare.31972113) and place the files under /data in your ChromTransfer repository directory. 
 ```
 cd ${YOUR_PATH_TO_ChromTransfer}/data
+rm -r * ### delete the existing empty folders in data directory from this repository
 
 # download cobinding_TF_source.tar.gz
 curl -L -o cobinding_TF_source.tar.gz "https://ndownloader.figshare.com/files/63597297"
