@@ -1,6 +1,10 @@
 # ChromTransfer: Cross-Species TF Binding Site Prediction
 
+[![DOI](https://zenodo.org/badge/767976655.svg)](https://doi.org/10.5281/zenodo.19449463)
+
 ChromTransfer predicts transcription factor (TF) binding sites in a target species by training on source-species ChIP-seq data and performing genome-wide inference via cross-species transfer.
+
+![ChromTransfer Model](figures/ChromTransfer_model.png "ChromTransfer Model")
 
 ---
 
@@ -244,3 +248,6 @@ python predict.py
 ### If you want to try our demo data for prediction, you can set `self.output_dir = "/mnt/Storage/home/wangyiman/crossSpecies_TF_bindingSite_prediction/bin_for_GitHub/demo/3.predict"` in `config.py`, then run the command above.
 
 ```
+
+## Citation:
+**Wang Y\*, Liu G\*, Wang Y, Zhang Y$**. 2026. Decoding TF-Specific Predictability in Cross-Species Binding Site Inference. *Unpublished*.
